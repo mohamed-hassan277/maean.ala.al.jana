@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maean-Al-Aljana-Academy</title>
+    <link rel="stylesheet" href="Maean-Al-Aljana-Academy.css">
+</head>
+<body>
+    <!-- الهيدر -->
+     <section id="top"></section>
+<section id="header">
+    <div class="header-lift">
+        <div class="header-links">
+            <a href="#contact-text-po"><h2>التواصل</h2></a>
+            <a href="#program-header"><h2>البرامج التعليمية</h2></a>
+            <a href="#why-us-po"><h2>لماذا نحن</h2></a>
+            <a href="#who-us-po"><h2>من نحن</h2></a>
+            <!-- <a href=""><h2>تسجيل</h2></a> -->
+            <a href="#top"><h2>الرئسية</h2></a>
+        </div>
+    </div>
+    <div class="header-right" id="header-right">
+            <div class="header-titel">
+                <h2>اكاديمية معا الى الجنة<br>Maean Ale Aljana Academy</h2>  
+            </div>
+            <div class="header-logo">
+                <img src="G:\project\mean al aljana\معا الى الجنة.jpg" alt="logo">
+            </div>
+    </div>
+</section>
+<!-- هيدر الفون  -->
+<section id="heade-phone">
+    <div class="header-phone-right">
+        <h4>اكاديمية معا الى الجنة<br>Maean Ale Aljana Academy</h4>  
+    </div>
+    <div class="header-phone-lift">
+        <img src="G:\project\mean al aljana\Maean-Al-Aljana-Academy.css" alt="logo">
+    </div>
+</section>    
+</section>
+
+
+<!-- الرئسية  -->
+<section id="page1">
+    <div class="page1-img" id="page1-img" >
+        <img src="G:\project\mean al aljana\mjAczYapEBf0FCZZ6Nhr.webp" alt="">
+    </div>
+    <div class="sahm-2" id="sahm-2">
+        <img src="G:\project\mean al aljana\سهم.jpeg" alt="">
+    </div>
+    <div class="sahm-1" id="sahm-1">
+        <img src="G:\project\mean al aljana\shdo.jpeg" alt="">
+    </div>
+    <div class="page1-text" id="page1-text"> <h1>برنامج تعلم الاسلام</h1>
+        <h2>سوف يتعلم الطالب فى هذة الاكاديمية كل الامور المتعلقة بالدين الاسلامى  
+        من قران وتفسير وحديث وسيرة وكل ما يتعلق بالشريعة الاسلامية من قريب او بعيد</h2>
+    </div>
+</section>
+
+<section id="page2">
+    <div class="page2-img" id="page2-img">
+        <img src="G:\project\mean al aljana\LkkbCc0twLJEFxYfaNAJ.webp" alt="">
+    </div>
+    <div class="page2-text" id="page2-text"> <h1> برنامج تعليم اللغة العربية</h1>
+        <h2>سوف يتعلم الطالب فى هذة الاكاديمية كل مايتعلق بالغة
+        العربية والقراء والكتابة باستخدام جميع الاساليب الحديثة بالاضافة الى نور البيان</h2>
+    </div>
+</section>
+
+<section id="page3">
+    <div class="page3-img" id="page3-img">
+        <img src="G:\project\mean al aljana\0Hpj3vC1pchPUO3SnUGt.webp" alt="">
+    </div>
+    <div class="page3-text" id="page3-text"> <h1>برنامج تعليم مبادئ الدين الاسلامى</h1>
+        <h2> سوف يتعلم الطالب فى هذة الاكادمية كل ما يتعلق باركان الاسلام من 
+        صلاة وصيام وحج والشهادة وزكاة وجميع مبادئ الاسلام</h2>
+    </div>
+</section>
+
+<!-- برمجة اكواد جافا سكريبت -->
+<script>
+    var p1_img=document.getElementById("page1-img");
+    var p2_img=document.getElementById("page2-img");
+    var p3_img=document.getElementById("page3-img");
+    var p1_tex=document.getElementById("page1-text");
+    var p2_tex=document.getElementById("page2-text");
+    var p3_tex=document.getElementById("page3-text");
+
+    var s1=document.getElementById("sahm-1");
+    var s2=document.getElementById("sahm-2");
+setTimeout(() =>{
+    p2_img.style.display="none"; p2_tex.style.display="none";
+    p3_img.style.display="none"; p3_tex.style.display="none";
+    s1.style.display="none";s2.style.display="none";
+} , 0)
+setTimeout(() =>{
+    p2_img.style.display="ruby"; p2_tex.style.display="ruby";
+    p1_img.style.display="none"; p1_tex.style.display="none";
+    p3_img.style.display="none"; p3_tex.style.display="none";
+} , 3000)
+
+setTimeout(() =>{
+    p3_img.style.display="ruby"; p3_tex.style.display="ruby";
+    p2_img.style.display="none"; p2_tex.style.display="none";
+    p1_img.style.display="none"; p1_tex.style.display="none";
+    s1.style.display="ruby";s2.style.display="ruby";
+} , 5000)
+
+<!-- الجانب الايمن -->
+s1.onclick=function(){
+    if(p3_img.style.display="ruby" ){
+        p1_img.style.display="ruby"; p1_tex.style.display="ruby";
+        p3_img.style.display="none"; p3_tex.style.display="none";} 
+            s1.onclick=function(){ 
+                if(p1_img.style.display="ruby"){
+                    p1_img.style.display="none"; p1_tex.style.display="none"; 
+                    p2_img.style.display="ruby"; p2_tex.style.display="ruby"} 
+        s1.onclick=function(){
+            if(p2_img.style.display="ruby"){
+                p3_img.style.display="ruby"; p3_tex.style.display="ruby";
+                p2_img.style.display="none"; p2_tex.style.display="none";}}}}
+
+s2.onclick=function(){
+    if(p3_img.style.display="ruby"){
+        p2_img.style.display="ruby"; p2_tex.style.display="ruby";
+        p3_img.style.display="none"; p3_tex.style.display="none";} 
+        s2.onclick=function(){
+            if(p2_img.style.display="ruby"){
+                p1_img.style.display="ruby"; p1_tex.style.display="ruby";
+                p2_img.style.display="none"; p2_tex.style.display="none";} 
+            s2.onclick=function(){
+                if(p1_img.style.display="ruby"){
+                    p3_img.style.display="ruby"; p3_tex.style.display="ruby";
+                    p1_img.style.display="none"; p1_tex.style.display="none";}}}}
+
+
+</script>
+<section id="but">
+    <button class="but-1"><a href="#program-header">program</a></button>
+    <button class="but-2"><a href="#who-us-po">who us</a></button>
+</section>
+<hr>
+<section id="who-us-po"></section>
+ <!-- برمجة من نحن -->
+ <div class="hed-who-us"><h1>من نحن<br><br><br> اكادمية معا الى الجنة</h1></div>
+<section id="who-us">
+    <!-- <div class="us-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/H-jYOlgtoaI?si=V4Fe5G_i2S4Xz7Ao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
+        ; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div> -->
+    <div class="us-text">
+        
+        <h2> اكاديمية معا الى الجنة هى اكاديمة متخصصة لتعليم الكبار و الصغار كل الامور المتعلقة 
+            بالدين الاسلامى وتعلم قراة القران وكيفية القراءة والكتابة باللغة العربية والانجليزية</h2>
+    </div><hr>
+</section>
+
+
+<section id="why-us-po"></section>
+<!-- لماذا نحن  -->
+<div class="hed-text"><h1>لماذا نحن</h1></div>
+<section id="why-us2">
+    
+    <div class="juest-mem">
+        <div class="square3"></div>
+        <h1>الحفظ والتلقين</h1><h3>التعامل مع الطالب ليس فقط من اجل الحفظ والتلقن بل ايضا من اجل الفهم والاستيعاب</h3>
+    </div>
+    
+    <div class="tech-exp">
+        <div class="square2"></div>
+        <h1>معلمين ذو خبرة</h1><h3>المعلمين والمعلمات هم من خريجى الازهر ومتمكنين فى دراسة المواد الشرعية ومجازين بجميع القراات</h3>
+    </div>
+    
+    <div class="les-only">
+        <div class="square1"></div>
+        <h1>مراعة الفروق الفردية</h1><h3>مراعة الاختلافات الفردية بين الاطفال حتى يسمح للطاب بالتعلم مباشرة مع الاستاذ ويتاح له الفرصة فى التقدم سريعا </h3>
+    </div>
+    
+</section>
+
+<section id="why-us1">
+<div class="prop">
+    <div class="square6"></div>
+    <h1>حل المشكلات</h1><h3>يكون التواصل دوما مع الطاب و الاستاذ او بين الطالب والاكاديمية من اجل حل جميع المشاكل التى تواجة الطالب</h3>
+</div>
+
+<div class="lang">
+    <div class="square5"></div>
+    <h1>التعامل باكثر من لغة</h1><br><br><h3>ليس على الطالب تعلم اللغة العربية من اجل التعلم قرااة 
+        القران بل هناك اساتذة يجيدون التعامل بلغات عيدية مما يسعاد على التواص بين الطالب و الاستاذ</h3>
+</div>
+
+<div class="any-tim">
+    <div class="square4"></div>
+    <h1>التعامل فى اى وقت</h1><h3>التعامل مع الطالب يكون فى اى وقت مناسب للطاب ويكون من خلال برنامج زووم من اجل التواصل المباشر</h3>
+</div>
+<hr>
+</section>
+
+
+<section id="program-header"></section>
+<!-- البرامج التعليمية  -->
+<div class="program-header" ><h1>البرامج التعليمية</h1></div>
+<section id="program">
+    
+    
+    <section id="page1">
+        <div class="page1-img" id="page1-img" >
+            <img src="G:\project\mean al aljana\mjAczYapEBf0FCZZ6Nhr.webp" alt="">
+        </div>
+
+        <div class="page1-text" id="page1-text"> <h1>برنامج تعلم الاسلام</h1>
+            <h2>سوف يتعلم الطالب فى هذة الاكاديمية كل الامور المتعلقة بالدين الاسلامى  
+            من قران وتفسير وحديث وسيرة وكل ما يتعلق بالشريعة الاسلامية من قريب او بعيد</h2>
+        </div>
+    </section>
+    
+    <section id="page2">
+        <div class="page2-img" id="page2-img">
+            <img src="G:\project\mean al aljana\LkkbCc0twLJEFxYfaNAJ.webp" alt="">
+        </div>
+        <div class="page2-text" id="page2-text"> <h1> برنامج تعليم اللغة العربية</h1>
+            <h2>سوف يتعلم الطالب فى هذة الاكاديمية كل مايتعلق بالغة
+            العربية والقراء والكتابة باستخدام جميع الاساليب الحديثة بالاضافة الى نور البيان</h2>
+        </div>
+    </section>
+    
+    <section id="page3">
+        <div class="page3-img" id="page3-img">
+            <img src="G:\project\mean al aljana\0Hpj3vC1pchPUO3SnUGt.webp" alt="">
+        </div>
+        <div class="page3-text" id="page3-text"> <h1>برنامج تعليم مبادئ الدين الاسلامى</h1>
+            <h2> سوف يتعلم الطالب فى هذة الاكادمية كل ما يتعلق باركان الاسلام من 
+            صلاة وصيام وحج والشهادة وزكاة وجميع مبادئ الاسلام</h2>
+        </div>
+    </section>
+</section>
+
+
+<!-- التواصل  -->
+ <section id="contact">
+    <hr>
+    <div class="contact-right">
+        <div class="contact-titel">
+            <h2>اكاديمية معا الى الجنة<br>Maean Ale Aljana Academy</h2>  
+        </div>
+        <div class="contact-logo">
+            <img src="G:\project\mean al aljana\معا الى الجنة.jpg" alt="logo">
+        </div>
+    </div>
+    <section id="heade-phone">
+        <div class="header-phone-right">
+            <h4>اكاديمية معا الى الجنة<br>Maean Ale Aljana Academy</h4>  
+        </div>
+        <div class="header-phone-lift">
+            <img src="G:\project\mean al aljana\معا الى الجنة.jpg" alt="logo">
+        </div>
+    </section> 
+    <div class="contact-text" id="contact-text-po">
+        <h1> اكادمية معا الى الجنة</h1>
+        <h2> اكاديمية معا الى الجنة هى اكاديمة متخصصة لتعليم الكبار و الصغار كل الامور المتعلقة 
+            بالدين الاسلامى وتعلم قراة القران وكيفية القراءة والكتابة باللغة العربية والانجليزية</h2>
+            <hr>
+            <h1>تواصل معنا</h1>           
+                <a href=""><img src="G:\project\mean al aljana\ايميل.jpeg" alt=""></a>    
+                <a href=""><img src="G:\project\mean al aljana\فون.jpeg" alt=""></a>    
+                <a href=""><img src="G:\project\mean al aljana\1732444218919.jpg" alt=""></a>
+                <a href=""><img src="G:\project\mean al aljana\انستجرام.jpeg" alt=""></a>
+                <a href=""><img src="G:\project\mean al aljana\واتساب.png" alt=""></a>
+                <a href=""><img src="G:\project\mean al aljana\يوتيوب.png" alt=""></a>
+
+
+
+
+    </div>
+
+</section>
+</body>
+</html>
